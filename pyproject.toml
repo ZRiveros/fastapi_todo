@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-todo"
+version = "0.1.0"
+description = "FastAPI TODO backend"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "motor>=3.7.1",
+    "pymongo>=4.15.4",
+    "uvicorn[standard]",
+]
